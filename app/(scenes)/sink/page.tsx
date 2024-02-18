@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import Sink from '../../../components/scenes/Sink';
+import Sink from '../../../components/scenes/sinkScene';
 
 const SinkPage: React.FC = () => {
 

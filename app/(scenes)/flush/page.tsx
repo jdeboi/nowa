@@ -3,7 +3,7 @@
 
 
 import React from 'react';
-import Flush from '../../../components/scenes/Flush';
+import Flush from '../../../components/scenes/flushScene';
 
 const FlushPage: React.FC = () => {
   return (
