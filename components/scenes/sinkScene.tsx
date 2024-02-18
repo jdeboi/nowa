@@ -9,8 +9,8 @@ import { MTLLoader } from 'three/addons/loaders/MTLLoader.js';
 
 
 import { Stats, OrbitControls } from '@react-three/drei'
-import Ocean from '../features/ocean';
-import Modal from '../features/modal';
+import Ocean from '../features/ocean2';
+import Modal from '../features/modal2';
 
 interface ObjProps {
     position: Vector3;
