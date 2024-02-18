@@ -49,7 +49,7 @@ const BottleModel: React.FC<BottleModelProps> = ({ position, i }) => {
     const obj = useLoader(OBJLoader, '/Corona/Corona.obj');
     const material = new MeshBasicMaterial({ color: 0x00000f, opacity: 0.8, transparent: true }); // Semi-transparent material
     // Ensure that the object is loaded before rendering
-    if (!obj) return null;
+    // if (!obj) return null;
 
     // Apply material to each child of the loaded object
     obj.traverse(child => {
